@@ -5,8 +5,8 @@ run1: compile1
     ./Q1_part1
 
 compile2:
-
+    gcc Q1_part2.c -lpthread -o Q1_part2
 
 run2: compile2
-
+    ./Q1_part2
 
