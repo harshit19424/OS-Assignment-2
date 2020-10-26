@@ -7,9 +7,11 @@
 #include <stdlib.h>
 #include <sys/wait.h>
 
+int var = 10;
+
 int main(){
 
-	int var = 10;
+	
 	pid_t pid = fork();
 
 	if (pid < 0){
